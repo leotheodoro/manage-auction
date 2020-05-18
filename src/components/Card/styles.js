@@ -132,4 +132,10 @@ export const Button = styled.button`
   & + button {
     margin-top: 15px;
   }
+
+  ${(props) =>
+    props.cursor &&
+    css`
+      background: #fff;
+    `}
 `;
